@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+
+
+    <item android:id="@+id/global_nav"
+        android:title="@string/globalStatsTxt"
+        android:icon="@drawable/globe"/>
+
+
+    <item android:id="@+id/continents_nav"
+        android:title="@string/affectedContinentsTxt"
+        android:icon="@drawable/continents_icon_black"/>
+
+    <item android:id="@+id/quarantine_nav"
+        android:title="@string/quarantineTxt"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:id="@+id/dashboardMode_nav"
+        android:title="@string/dashboardModeTxt"
+        android:icon="@drawable/ic_baseline_dashboard_24"/>
+
+    <item android:id="@+id/setting_nav"
+        android:title="@string/settingsTxt"
+        android:icon="@drawable/settings_black"/>
+
+    <item android:id="@+id/info_nav"
+        android:title="@string/infoTxt"
+        android:icon="@drawable/ic_baseline_info_24"/>
+
+    <item android:id="@+id/map_nav"
+        android:title="@string/exposureMapTxt"
+        android:icon="@drawable/ic_baseline_map_24"/>
+
+    <item android:id="@+id/dashboard_nav"
+        android:title="@string/israelCoronaDashboardTxt"
+        android:icon="@drawable/ic_baseline_dashboard_24"/>
+
+    <item android:id="@+id/dashboard_global_nav"
+        android:title="@string/globalCoronaDashboardTxt"
+        android:icon="@drawable/ic_baseline_dashboard_24"/>
+
+</menu>

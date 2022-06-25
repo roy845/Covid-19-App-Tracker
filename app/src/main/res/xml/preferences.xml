@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#5DBFBF">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="cases"
+        android:title="Cases" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="todayCases"
+        android:title="Today Cases" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="totalDeaths"
+        android:title="Total Deaths" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="todayDeaths"
+        android:title="Today Deaths" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="recovered"
+        android:title="Recovered" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="active"
+        android:title="Active" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="critical"
+        android:title="Critical" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="casesPerOneMillion"
+        android:title="Cases Per One Million" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="deathsPerOneMillion"
+        android:title="Deaths Per One Million" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="todayRecovered"
+        android:title="Today Recovered" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="tests"
+        android:title="Tests" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="testsPerOneMillion"
+        android:title="Tests Per One Million" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="population"
+        android:title="Population" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="continent"
+        android:title="Continent" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="oneCasePerPeople"
+        android:title="One Case Per People" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="oneDeathPerPeople"
+        android:title="One Death Per People" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="oneTestPerPeople"
+        android:title="One Test PerPeople" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="activePerOneMillion"
+        android:title="Active Per One Million" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="recoveredPerOneMillion"
+        android:title="Recovered Per One Million" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="criticalPerOneMillion"
+        android:title="Critical Per One Million" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="affectedCountries"
+        android:title="Affected Countries" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="showCountriesGraphs"
+        android:title="Show Countries Graphs" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="showContinentsGraphs"
+        android:title="Show Continents Graphs" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="showGlobalGraphs"
+        android:title="Show Global Graphs" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="rememberRemovedCountries"
+        android:title="Country Remove" />
+
+</PreferenceScreen>

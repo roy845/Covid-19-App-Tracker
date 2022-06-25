@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="infoTxt">Information</string>
+    <string name="globalStatsTxt">Global Stats</string>
+    <string name="quarantineTxt">Quarantine</string>
+    <string name="confirmationTxt">Are you sure?</string>
+    <string name="settingsTxt">Settings</string>
+    <string name="continentsTxt">Affected Continents</string>
+    <string name="checkBoxTxt">Ok please do not show me again.</string>
+    <string name="countryNameTxt">Country Name</string>
+    <string name="quarantineEstimationTxt">Quarantine Estimation</string>
+    <string name="startOfQuarantineTxt">Start Of Quarantine:</string>
+    <string name="endOfQuarantineTxt">End Of Quarantine:</string>
+    <string name="switchCoronaTestTxt">with two negative corona test</string>
+    <string name="clearTxt">Clear</string>
+    <string name="callToReportTxt">Call to report</string>
+    <string name="reportOnSiteTxt">Report on Site</string>
+    <string name="pickDateTxt">Pick a date</string>
+    <string name="searchTxt">Search a country</string>
+    <string name="noneTxt">NONE</string>
+    <string name="affectedCountriesTxt">Affected Countries</string>
+    <string name="affectedContinentsTxt">Affected Continents</string>
+    <string name="israelCoronaDashboardTxt">Israel Corona Dashboard</string>
+    <string name="globalCoronaDashboardTxt">Global Corona Dashboard</string>
+    <string name="normalModeTxt">Normal Mode</string>
+    <string name="exposureMapTxt">Exposure Map</string>
+    <string name="dashboardModeTxt">Dashboard Mode</string>
+    <string name="initialScreenTxt">
+                Welcome!\n
+        In this app you can see:\n
+        1.Global Covid19 stats\n
+        2.Covid19 affected countries\n
+        3.Covid19 affected continents\n
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="happyQuarantineTxt">Happy Quarantine !!!</string>
+
+</resources>
