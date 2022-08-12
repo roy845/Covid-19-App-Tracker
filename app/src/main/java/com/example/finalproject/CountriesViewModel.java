@@ -91,7 +91,7 @@ public class CountriesViewModel extends AndroidViewModel {
 
     public  ArrayList<Country> parseCountries(Context context) {
 
-        String urlGlobalStats = "https://disease.sh/v3/covid-19/countries";
+        String urlGlobalStats = "";
         StringRequest globalStatsRequest = new StringRequest(Request.Method.GET, urlGlobalStats,
                 new Response.Listener<String>() {
 
