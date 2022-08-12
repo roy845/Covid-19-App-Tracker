@@ -238,7 +238,7 @@ public class GlobalStats extends Fragment {
 
     private void getGlobalStats() {
 
-        String urlGlobalStats = "https://corona.lmao.ninja/v2/all/";
+        String urlGlobalStats = "https://disease.sh/v3/covid-19/all";
         simpleArcLoader.start();
         StringRequest globalStatsRequest = new StringRequest(Request.Method.GET, urlGlobalStats,
                 new Response.Listener<String>() {
