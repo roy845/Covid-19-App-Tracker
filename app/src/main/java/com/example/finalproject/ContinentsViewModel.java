@@ -71,7 +71,7 @@ public class ContinentsViewModel  extends AndroidViewModel {
 
     private ArrayList<Continent> parseContinents(Context context) {
 
-        String urlGlobalStats = "";
+        String urlGlobalStats = "https://disease.sh/v3/covid-19/continents";
         StringRequest globalStatsRequest = new StringRequest(Request.Method.GET, urlGlobalStats,
                 new Response.Listener<String>() {
                     @Override
